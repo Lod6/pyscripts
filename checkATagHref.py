@@ -1,7 +1,7 @@
 import requests
 from selenium import webdriver
 
-driver=webdriver.Chrome(executable_path='C:\Program Files (x86)\chromedriver.exe')
+driver=webdriver.Chrome(executable_path='INSERT chromedriver.exe PATH')
 
 def checkATagHrefs(page):
     driver.get(page)
